@@ -19,7 +19,7 @@
     justify-content: space-between;
     padding: 0px var(--default-layout-horizontal-spacer);
 }
-.logo{
+.logo-link{
     display: flex;
 }
 .search, .search-result{
@@ -135,7 +135,7 @@
     font-size: 1.4rem;
     font-weight: 600;
     color: var(--white);
-    font-family: 'ProximaNova', sans-serif;
+    font-family: var(--font-family), sans-serif;
     background-color: var(--primary);
 }
 .user-avatar{
