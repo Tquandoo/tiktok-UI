@@ -33,13 +33,13 @@ const MENU_ITEMS = [
             data: [
                 {
                     type: 'language',
-                    code: 'en',
-                    title: 'English',
+                    code: 'vi',
+                    title: 'Tiếng Việt',
                 },
                 {
                     type: 'language',
-                    code: 'vi',
-                    title: 'Tiếng Việt',
+                    code: 'en',
+                    title: 'English',
                 },
             ],
         },
