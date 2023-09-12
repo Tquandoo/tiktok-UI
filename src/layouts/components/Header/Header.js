@@ -9,7 +9,7 @@ import Button from '~/components/Button';
 import Menu from '~/components/Popper/Menu';
 import Image from '~/components/Image';
 import Search from '../Search';
-import routesConfig from '~/config/router';
+import config from '~/config';
 
 import {
     faKeyboard,
@@ -29,7 +29,7 @@ const MENU_ITEMS = [
         icon: <FontAwesomeIcon icon={faEarthAsia}></FontAwesomeIcon>,
         title: 'Englist',
         children: {
-            title: 'Language',
+            title: 'Language ',
             data: [
                 {
                     type: 'language',
@@ -95,7 +95,7 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <Link to={routesConfig.home} className={cx('logo-link')}>
+                <Link to={config.routes.home} className={cx('logo-link')}>
                     <img src={images.logo} alt="Tiktok" />
                 </Link>
 
