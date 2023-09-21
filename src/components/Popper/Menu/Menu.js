@@ -37,7 +37,9 @@ function Menu({ children, items = [], hideOnClick = false, onChange, ...passProp
             );
         });
     };
+    
 
+    // back when to out
     const handleBack = () => {
         setHistory((prev) => prev.slice(0, prev.length - 1));
         // Tức là nó sẽ trả về mảng mới không bao gồm phần tử cuối(xóa phần tử cuối)
